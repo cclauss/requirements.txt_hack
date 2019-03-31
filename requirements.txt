@@ -1,9 +1,9 @@
 #colorama
 enum34; python_version < '3.4' and sys_platform == 'win32'
 #enum34; python_version < '3.4'
-#psutil; 'linux' in sys_platform
+psutil; sys_platform in ('linux', 'linux2')
 #pyasn1
 #rsa; sys_platform == 'win32'
-secretstorage; 'linux' in sys_platform
+secretstorage; 'linux' in sys_platform 
 #https://github.com/AlessandroZ/pypykatz/archive/master.zip; sys_platform == 'win32'  # should point to pypykatz if my PR is approved
 #enum34; python_version < '3.4'
